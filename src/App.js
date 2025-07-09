@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <div className="grid-layout">
-        <div className="grid-item top-left">
+        <div className="grid-item top-left" >
           <img className="pic" src="/images/homepage-background_left_top.jpg" alt="left-top"/>
         </div>
         <div className="grid-item top-right">
@@ -13,7 +13,7 @@ function App() {
         </div>
         <div className="grid-item center">
           <img className="pic" src="/images/homepage-background_mid.jpg" alt="center"/>
-          <img
+          <img 
           src={require("./images/profile-pic.jpg")}
           alt="My portrait"
           className="avatar"
