@@ -6,13 +6,13 @@ function App() {
     <div className="App">
       <div className="grid-layout">
         <div className="grid-item top-left" >
-          <img className="pic" src="/images/homepage-background_left_top.jpg" alt="left-top"/>
+          <img className="pic" src="/my-portfolio/images/homepage-background_left_top.jpg" alt="left-top"/>
         </div>
         <div className="grid-item top-right">
-          <img className="pic" src="/images/homepage-background_right_top.jpg" alt="right-top"/>
+          <img className="pic" src="/my-portfolio/images/homepage-background_right_top.jpg" alt="right-top"/>
         </div>
         <div className="grid-item center">
-          <img className="pic" src="/images/homepage-background_mid.jpg" alt="center"/>
+          <img className="pic" src="/my-portfolio/images/homepage-background_mid.jpg" alt="center"/>
           <img 
           src={require("./images/profile-pic.jpg")}
           alt="My portrait"
@@ -20,10 +20,10 @@ function App() {
         />
         </div>
         <div className="grid-item bottom-left">
-          <img className="pic" src="/images/homepage-background_left_bottom.jpg" alt="right-bottom"/>
+          <img className="pic" src="/my-portfolio/images/homepage-background_left_bottom.jpg" alt="right-bottom"/>
         </div>
         <div className="grid-item bottom-right">
-          <img className="pic" src="/images/homepage-background_right_bottom.jpg" alt="right-bottom"/>
+          <img className="pic" src="/my-portfolio/images/homepage-background_right_bottom.jpg" alt="right-bottom"/>
         </div>
       </div>
       {/* <header>
