@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import SectionCenter from "./components/SectionCenter";
 
 function App() {
   return (
@@ -11,13 +12,15 @@ function App() {
         <div className="grid-item top-right">
           <img className="pic" src="/my-portfolio/images/homepage-background_right_top.jpg" alt="right-top"/>
         </div>
-        <div className="grid-item center">
-          <img className="pic" src="/my-portfolio/images/homepage-background_mid.jpg" alt="center"/>
+        <div className="grid-item home-center">
+          <SectionCenter />
+          
+          {/* <img className="pic" src="/my-portfolio/images/homepage-background_mid.jpg" alt="center"/>
           <img 
           src={require("./images/profile-pic.jpg")}
           alt="My portrait"
           className="avatar"
-        />
+        /> */}
         </div>
         <div className="grid-item bottom-left">
           <img className="pic" src="/my-portfolio/images/homepage-background_left_bottom.jpg" alt="right-bottom"/>
